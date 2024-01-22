@@ -66,6 +66,8 @@ function CarouselComponent({ sections }) {
     prevArrow: <SamplePrevArrow />,
   };
 
+ 
+  console.log(sections);
   return (
     <section className=" bg-lightBrown ">
       <TitleCarousel
@@ -76,9 +78,9 @@ function CarouselComponent({ sections }) {
 
       <div className="w-3/4 md:w-4/5 mx-auto">
         <Slider {...settings}>
-          {sections.map((item) => (
-            <article key={item.id}>
-              <Link to={`/Trip/${item.id}`}>
+          {sections.map((item,index) => (
+            <Link to={`/Trip/${item.id}`}>
+              <article key={index}>
                 <figure>
                   <img
                     lazy="true"
@@ -88,11 +90,11 @@ function CarouselComponent({ sections }) {
                     className="object-cover h-[280px] border-class"
                   />
                   <figcaption className="text-darkBrown text-center">
-                    {item.title_en}
+                    {item.title}
                   </figcaption>
                 </figure>
-              </Link>
-            </article>
+              </article>
+            </Link>
           ))}
         </Slider>
       </div>

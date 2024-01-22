@@ -21,23 +21,18 @@ function Home({
   formData,
   handleSubmit 
 }) {
-  const [sections, setSections] = useState([]);
-  const [loading2, setLoading2] = useState(true);
-
-  const [gallery, setGallery] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [sections, setSections] = useState([]);  
+  const [gallery, setGallery] = useState([]); 
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await fetch(API_BASE_URL + "Gallery");
-        const response2 = await fetch(API_BASE_URL + "Sections");
+        const response2 = await fetch(API_BASE_URL + "Trips");
         const data = await response.json();
         const data2 = await response2.json();
         setGallery(data);
-        setLoading(false);
-        setSections(data2);
-        setLoading2(false);
+        setSections(data2); 
       } catch (error) { 
       }
     };
@@ -48,8 +43,8 @@ function Home({
   return (
     <div className="font-montserrat">
       <Header whatsapp={whatsapp} iconHeader={iconHeader}/>
-      <CarouselComponent sections={sections} loading2={loading2} />
-      <GalleryComponent gallery={gallery} loading={loading} />
+      <CarouselComponent sections={sections} />
+      <GalleryComponent gallery={gallery}  />
       <FaqComponent />
       <div className="bg-darkBrown">
         <Title titleColor="#E3D5CB" bgColor="#E3D5CB" title="Contact" />

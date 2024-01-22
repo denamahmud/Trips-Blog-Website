@@ -22,9 +22,11 @@ function SingleBlogSection({ blog }) {
               className="w-[50%] my-5 "
               style={{ borderTop: "2px solid #804216" }}
             />
-            <p className="text-justify text-md sm:text-lg leading-relaxed text-[#474747]">
-              {blog.description}
-            </p>
+               {
+                 blog.description.split('</p>').map((paragraph, index) => (
+                  <p className="text-justify text-md sm:text-lg leading-relaxed text-[#474747]" key={index}>{paragraph.replace('<p>', '').trim()}</p>
+                )) 
+               }
           </div>
         </article>
       )}
