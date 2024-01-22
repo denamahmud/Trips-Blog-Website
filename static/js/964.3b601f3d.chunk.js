@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktour_project=self.webpackChunktour_project||[]).push([[964],{964:(t,e,n)=>{n.r(e),n.d(e,{default:()=>c});var s=n(2791),a=n(184);const o=(0,s.lazy)((()=>n.e(112).then(n.bind(n,5112)))),r=(0,s.lazy)((()=>n.e(297).then(n.bind(n,1297)))),u=(0,s.lazy)((()=>n.e(981).then(n.bind(n,905))));const c=function(t){let{about:e}=t;return(0,a.jsxs)("div",{className:"font-montserrat",children:[(0,a.jsx)(r,{name:"About"}),(0,a.jsx)(u,{about:e}),(0,a.jsx)(o,{})]})}}}]);
+//# sourceMappingURL=964.3b601f3d.chunk.js.map
