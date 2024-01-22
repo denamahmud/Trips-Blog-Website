@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Trips-Blog-Website/static/css/main.559071ad.css",
-    "main.js": "/Trips-Blog-Website/static/js/main.bd8cbbdf.js",
+    "main.js": "/Trips-Blog-Website/static/js/main.ffbe2a15.js",
     "static/js/356.c009ec95.chunk.js": "/Trips-Blog-Website/static/js/356.c009ec95.chunk.js",
     "static/js/266.aead0383.chunk.js": "/Trips-Blog-Website/static/js/266.aead0383.chunk.js",
     "static/js/964.3b601f3d.chunk.js": "/Trips-Blog-Website/static/js/964.3b601f3d.chunk.js",
@@ -11,7 +11,7 @@
     "static/js/562.f4802116.chunk.js": "/Trips-Blog-Website/static/js/562.f4802116.chunk.js",
     "static/js/649.47b162cc.chunk.js": "/Trips-Blog-Website/static/js/649.47b162cc.chunk.js",
     "static/js/859.44a004ad.chunk.js": "/Trips-Blog-Website/static/js/859.44a004ad.chunk.js",
-    "static/js/148.fd8e9bf9.chunk.js": "/Trips-Blog-Website/static/js/148.fd8e9bf9.chunk.js",
+    "static/js/148.0ccefe50.chunk.js": "/Trips-Blog-Website/static/js/148.0ccefe50.chunk.js",
     "static/js/112.f04747a3.chunk.js": "/Trips-Blog-Website/static/js/112.f04747a3.chunk.js",
     "static/js/29.d7eabb1e.chunk.js": "/Trips-Blog-Website/static/js/29.d7eabb1e.chunk.js",
     "static/js/628.df166245.chunk.js": "/Trips-Blog-Website/static/js/628.df166245.chunk.js",
@@ -25,7 +25,7 @@
     "static/js/453.d61f19ce.chunk.js": "/Trips-Blog-Website/static/js/453.d61f19ce.chunk.js",
     "static/js/121.69e1c99a.chunk.js": "/Trips-Blog-Website/static/js/121.69e1c99a.chunk.js",
     "static/js/388.91145d19.chunk.js": "/Trips-Blog-Website/static/js/388.91145d19.chunk.js",
-    "static/js/489.77ee0a7c.chunk.js": "/Trips-Blog-Website/static/js/489.77ee0a7c.chunk.js",
+    "static/js/489.8f55825f.chunk.js": "/Trips-Blog-Website/static/js/489.8f55825f.chunk.js",
     "static/js/653.d6e9eb83.chunk.js": "/Trips-Blog-Website/static/js/653.d6e9eb83.chunk.js",
     "static/js/355.f111bdd9.chunk.js": "/Trips-Blog-Website/static/js/355.f111bdd9.chunk.js",
     "static/js/203.ba038fa2.chunk.js": "/Trips-Blog-Website/static/js/203.ba038fa2.chunk.js",
@@ -34,7 +34,7 @@
     "static/media/d12d6d521e.jpg": "/Trips-Blog-Website/static/media/1701940185ba21caf548a7ba563c49fcd12d6d521e.ae2eedbc18238b8a08e2.jpg",
     "index.html": "/Trips-Blog-Website/index.html",
     "main.559071ad.css.map": "/Trips-Blog-Website/static/css/main.559071ad.css.map",
-    "main.bd8cbbdf.js.map": "/Trips-Blog-Website/static/js/main.bd8cbbdf.js.map",
+    "main.ffbe2a15.js.map": "/Trips-Blog-Website/static/js/main.ffbe2a15.js.map",
     "356.c009ec95.chunk.js.map": "/Trips-Blog-Website/static/js/356.c009ec95.chunk.js.map",
     "266.aead0383.chunk.js.map": "/Trips-Blog-Website/static/js/266.aead0383.chunk.js.map",
     "964.3b601f3d.chunk.js.map": "/Trips-Blog-Website/static/js/964.3b601f3d.chunk.js.map",
@@ -44,7 +44,7 @@
     "562.f4802116.chunk.js.map": "/Trips-Blog-Website/static/js/562.f4802116.chunk.js.map",
     "649.47b162cc.chunk.js.map": "/Trips-Blog-Website/static/js/649.47b162cc.chunk.js.map",
     "859.44a004ad.chunk.js.map": "/Trips-Blog-Website/static/js/859.44a004ad.chunk.js.map",
-    "148.fd8e9bf9.chunk.js.map": "/Trips-Blog-Website/static/js/148.fd8e9bf9.chunk.js.map",
+    "148.0ccefe50.chunk.js.map": "/Trips-Blog-Website/static/js/148.0ccefe50.chunk.js.map",
     "112.f04747a3.chunk.js.map": "/Trips-Blog-Website/static/js/112.f04747a3.chunk.js.map",
     "29.d7eabb1e.chunk.js.map": "/Trips-Blog-Website/static/js/29.d7eabb1e.chunk.js.map",
     "628.df166245.chunk.js.map": "/Trips-Blog-Website/static/js/628.df166245.chunk.js.map",
@@ -58,7 +58,7 @@
     "453.d61f19ce.chunk.js.map": "/Trips-Blog-Website/static/js/453.d61f19ce.chunk.js.map",
     "121.69e1c99a.chunk.js.map": "/Trips-Blog-Website/static/js/121.69e1c99a.chunk.js.map",
     "388.91145d19.chunk.js.map": "/Trips-Blog-Website/static/js/388.91145d19.chunk.js.map",
-    "489.77ee0a7c.chunk.js.map": "/Trips-Blog-Website/static/js/489.77ee0a7c.chunk.js.map",
+    "489.8f55825f.chunk.js.map": "/Trips-Blog-Website/static/js/489.8f55825f.chunk.js.map",
     "653.d6e9eb83.chunk.js.map": "/Trips-Blog-Website/static/js/653.d6e9eb83.chunk.js.map",
     "355.f111bdd9.chunk.js.map": "/Trips-Blog-Website/static/js/355.f111bdd9.chunk.js.map",
     "203.ba038fa2.chunk.js.map": "/Trips-Blog-Website/static/js/203.ba038fa2.chunk.js.map",
@@ -67,6 +67,6 @@
   },
   "entrypoints": [
     "static/css/main.559071ad.css",
-    "static/js/main.bd8cbbdf.js"
+    "static/js/main.ffbe2a15.js"
   ]
 }
