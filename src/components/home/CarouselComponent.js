@@ -1,6 +1,7 @@
-import Slider from "react-slick"; 
-import { baseUrl } from "../apiConfig"; 
+import Slider from "react-slick";
+import { baseUrl } from "../apiConfig";
 import TitleCarousel from "./TitleCarousel";
+import { Link } from "react-router-dom";
 
 function CarouselComponent({ sections }) {
   function SampleNextArrow(props) {
@@ -77,18 +78,20 @@ function CarouselComponent({ sections }) {
         <Slider {...settings}>
           {sections.map((item) => (
             <article key={item.id}>
-              <figure>
-                <img
-                  lazy="true"
-                  loading="lazy"
-                  src={baseUrl + item.icon}
-                  width={280}
-                  className="object-cover h-[280px] border-class"
-                />
-                <figcaption className="text-darkBrown text-center">
-                  {item.title_en}
-                </figcaption>
-              </figure>
+              <Link to={`/Trip/${item.id}`}>
+                <figure>
+                  <img
+                    lazy="true"
+                    loading="lazy"
+                    src={baseUrl + item.icon}
+                    width={280}
+                    className="object-cover h-[280px] border-class"
+                  />
+                  <figcaption className="text-darkBrown text-center">
+                    {item.title_en}
+                  </figcaption>
+                </figure>
+              </Link>
             </article>
           ))}
         </Slider>
