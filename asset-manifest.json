@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Trips-Blog-Website/static/css/main.559071ad.css",
-    "main.js": "/Trips-Blog-Website/static/js/main.71a69d95.js",
+    "main.js": "/Trips-Blog-Website/static/js/main.a33c78dc.js",
     "static/js/356.c009ec95.chunk.js": "/Trips-Blog-Website/static/js/356.c009ec95.chunk.js",
     "static/js/266.4aae09af.chunk.js": "/Trips-Blog-Website/static/js/266.4aae09af.chunk.js",
     "static/js/964.3b601f3d.chunk.js": "/Trips-Blog-Website/static/js/964.3b601f3d.chunk.js",
@@ -13,7 +13,7 @@
     "static/js/859.44a004ad.chunk.js": "/Trips-Blog-Website/static/js/859.44a004ad.chunk.js",
     "static/js/148.d835fbfa.chunk.js": "/Trips-Blog-Website/static/js/148.d835fbfa.chunk.js",
     "static/js/112.f04747a3.chunk.js": "/Trips-Blog-Website/static/js/112.f04747a3.chunk.js",
-    "static/js/29.358ed927.chunk.js": "/Trips-Blog-Website/static/js/29.358ed927.chunk.js",
+    "static/js/29.97bb64ab.chunk.js": "/Trips-Blog-Website/static/js/29.97bb64ab.chunk.js",
     "static/js/628.df166245.chunk.js": "/Trips-Blog-Website/static/js/628.df166245.chunk.js",
     "static/js/591.7b51538b.chunk.js": "/Trips-Blog-Website/static/js/591.7b51538b.chunk.js",
     "static/js/898.aeb2dfe8.chunk.js": "/Trips-Blog-Website/static/js/898.aeb2dfe8.chunk.js",
@@ -34,7 +34,7 @@
     "static/media/d12d6d521e.jpg": "/Trips-Blog-Website/static/media/1701940185ba21caf548a7ba563c49fcd12d6d521e.ae2eedbc18238b8a08e2.jpg",
     "index.html": "/Trips-Blog-Website/index.html",
     "main.559071ad.css.map": "/Trips-Blog-Website/static/css/main.559071ad.css.map",
-    "main.71a69d95.js.map": "/Trips-Blog-Website/static/js/main.71a69d95.js.map",
+    "main.a33c78dc.js.map": "/Trips-Blog-Website/static/js/main.a33c78dc.js.map",
     "356.c009ec95.chunk.js.map": "/Trips-Blog-Website/static/js/356.c009ec95.chunk.js.map",
     "266.4aae09af.chunk.js.map": "/Trips-Blog-Website/static/js/266.4aae09af.chunk.js.map",
     "964.3b601f3d.chunk.js.map": "/Trips-Blog-Website/static/js/964.3b601f3d.chunk.js.map",
@@ -46,7 +46,7 @@
     "859.44a004ad.chunk.js.map": "/Trips-Blog-Website/static/js/859.44a004ad.chunk.js.map",
     "148.d835fbfa.chunk.js.map": "/Trips-Blog-Website/static/js/148.d835fbfa.chunk.js.map",
     "112.f04747a3.chunk.js.map": "/Trips-Blog-Website/static/js/112.f04747a3.chunk.js.map",
-    "29.358ed927.chunk.js.map": "/Trips-Blog-Website/static/js/29.358ed927.chunk.js.map",
+    "29.97bb64ab.chunk.js.map": "/Trips-Blog-Website/static/js/29.97bb64ab.chunk.js.map",
     "628.df166245.chunk.js.map": "/Trips-Blog-Website/static/js/628.df166245.chunk.js.map",
     "591.7b51538b.chunk.js.map": "/Trips-Blog-Website/static/js/591.7b51538b.chunk.js.map",
     "898.aeb2dfe8.chunk.js.map": "/Trips-Blog-Website/static/js/898.aeb2dfe8.chunk.js.map",
@@ -67,6 +67,6 @@
   },
   "entrypoints": [
     "static/css/main.559071ad.css",
-    "static/js/main.71a69d95.js"
+    "static/js/main.a33c78dc.js"
   ]
 }
