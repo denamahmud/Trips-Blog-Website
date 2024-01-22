@@ -25,7 +25,7 @@ function SingleBlogSection({ blog }) {
                {
                 
                  blog.description.split('</p>').map((paragraph, index) => (
-                  <p className="text-justify text-md sm:text-lg leading-relaxed text-[#474747]" key={index}>{paragraph.replace(/<p>|<br\s*\/?>/g, '').trim()}</p>
+                  <p className="text-justify text-md sm:text-lg leading-relaxed text-[#474747]" key={index}>{paragraph.replace(/<p>|<br\s*\/?>|&nbsp;/g, '').trim()}</p>
                 )) 
                }
           </div>
